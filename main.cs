@@ -12,7 +12,7 @@ class Program {
       for (int j=0; j<numChars; j++){
         charSet.Add(line[i+j]);
       }        
-      if (charSet.Count == 14) {
+      if (charSet.Count == numChars) {
         if (firstChar == 0) {
           firstChar = i+1;
           Console.WriteLine(i+numChars);
